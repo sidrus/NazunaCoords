@@ -2,10 +2,6 @@ local NazunaCoords = {}
 
 local hbd = LibStub("HereBeDragons-2.0")
 
-function NazunaCoords:Initialize()
-	print("NazunaCoords loaded.")
-end
-
 function NazunaCoords_OnLoad(frame)	
 	frame:SetMovable(true)
 	frame:RegisterEvent("PLAYER_ENTERING_WORLD")
@@ -14,7 +10,7 @@ end
 
 function NazunaCoords_OnEvent(self, event, ...)
 	if(event == "PLAYER_ENTERING_WORLD") then
-		NazunaCoords:Initialize()		
+		-- Initialization code here; but nothing to initialize right now
 	end
 end
 

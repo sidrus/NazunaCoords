@@ -1,0 +1,10 @@
+## Interface: 80000
+## Title: NazunaCoords
+## Author: Sidrus-Baelgun
+## Version: 0.2
+
+libs\LibStub\LibStub.lua
+libs\HereBeDragons\HereBeDragons-2.0.lua
+
+main.lua
+main.xml
